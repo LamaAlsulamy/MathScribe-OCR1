@@ -1,6 +1,0 @@
-Filename: 0*qbfiSehqHpoNdxKQ.jpg
-Upload Time: 0 ms
-Processing Time: 10023 ms
-Total Time: 10023 ms
-Output LaTeX: \begin{array}{l}{{\frac{\mathrm{vau}\rightarrow\infty}{1+\alpha=\alpha}}}\\ {{\frac{\mathrm{vea}}{2-\cdots-\alpha-\infty}}}\\ {{\frac{\mathrm{vea}}{\omega=\alpha}{\omega}}}\\ {{\frac{\mathrm{uton}}{\omega(\beta)\omega_{3}}}}\\ {{\frac{\mathrm{uton}}{\omega(\alpha)\omega_{0}\omega_{3}}}}\\ {{\frac{\mathrm{un}=\omega_{0}=\omega_{0}=\omega_{0}\omega_{0}\omega_{0}\omega_{0}\phi_{0}}}{\frac{\mathrm{tsu}_{0}=\omega_{0}\omega_{0}\omega_{0}}{\frac{\mathrm{tson}}{\omega_{0}\omega_{0}\omega_{0}\omega_{0}\omega_{0}\omega_{0}\omega_{0}}}}}\\ {{\frac{\mathrm{teaus}}{\omega_{0}\omega_{0}\omega_{0}}}}\end{array}
-Saved Image: logs/2025-12-10_01-35-27_image.png
