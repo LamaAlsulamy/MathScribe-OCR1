@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pillow
+python-multipart
+requests
+git+https://github.com/lukas-blecher/pix2tex.git
+torch==1.12.1
+torchvision==0.13.1
+opencv-python-headless
+einops
+timm
+--extra-index-url https://download.pytorch.org/whl/cpu
