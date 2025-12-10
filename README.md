@@ -1,1 +1,85 @@
-# MathScribe-OCR1
+# MathScribe-OCR
+
+**A Printed Mathematical Expression Recognition and LaTeX Conversion System**
+
+## 1. Introduction
+
+MathScribe-OCR is a full-stack system designed for the recognition and structural transcription of **printed mathematical expressions**. The system converts symbols and typeset mathematical formulas into LaTeX markup through an integrated visual recognition engine and user-facing interface. The goal of this work is to support educational digitization, formula indexing, and mathematical content restructuring in academic and computational environments.
+
+## 2. Research Problem
+
+Printed mathematical notation represents spatial, symbolic, and hierarchical structures that cannot be interpreted through basic OCR character-level extraction. Mathematical expressions involve superscripts, fractions, integrals, matrices, and positional alignment that require symbolic reconstruction rather than plain text detection. The system addresses the need for accurate and structured printed formula transcription.
+
+## 3. System Objectives
+
+* To detect printed mathematical symbols and their spatial relationships.
+* To reconstruct mathematical expressions into standardized LaTeX format.
+* To provide an interactive interface for verification, display, and export.
+
+## 4. System Components
+
+### 4.1 Frontend Interface (React + Vite + Tailwind)
+
+* Visual display of uploaded mathematical expressions.
+* LaTeX rendering preview for validation.
+* Export options and interactive output handling.
+
+### 4.2 Backend Processing Layer
+
+* Symbol recognition and structural parsing engine.
+* Conversion of printed notations into LaTeX representation.
+* API-based communication with the frontend for real-time inference.
+
+### 4.3 Output Layer
+
+* Generation of LaTeX code.
+* Rendered visual output to ensure layout accuracy and alignment consistency.
+
+## 5. Implementation Requirements
+
+### Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### Backend Setup
+
+```bash
+python server.py
+```
+
+## 6. Workflow Summary
+
+1. User provides printed mathematical expression input.
+2. Backend processes the notation and extracts symbolic structure.
+3. Expression is reconstructed into LaTeX.
+4. Frontend displays the resulting transcription with export capability.
+
+## 7. Evaluation Summary
+
+Preliminary evaluation indicates stable performance in printed symbol detection and accurate LaTeX transcription. Fractional forms, superscripts, and operator alignment demonstrate consistency across multiple samples.
+
+## 8. Conclusion
+
+MathScribe-OCR serves as a digitization and transcription tool for printed mathematical content. It enables accurate structural reconstruction and supports academic formula archiving, instructional content development, and publication workflows.
+
+## 9. Scholarly Contribution
+
+* Enhances accessibility of printed mathematical content in digital environments.
+* Supports LaTeX-oriented academic publishing standards.
+* Provides structured transcription verification for educational and research contexts.
+
+## 10. Team Information
+
+**Project Contributors**
+
+| Name                      | ID        |
+| ------------------------- | --------- |
+| Maram Moshabbab Al Romman | 444007116 |
+| Lama Muidh Alsulami       | 443006533 |
+| Rimas Yasir Allehaibi     | 444000565 |
+| Layan Munwer Almoqati     | 444004267 |
+| Lama Mousa Alzahrani      | 444002964 |
