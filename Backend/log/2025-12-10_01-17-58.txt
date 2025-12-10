@@ -1,0 +1,6 @@
+Filename: 646493.jpg
+Upload Time: 0 ms
+Processing Time: 232 ms
+Total Time: 232 ms
+Output LaTeX: {\mathit{i}}^{2}=-1
+Saved Image: logs/2025-12-10_01-17-58_image.png

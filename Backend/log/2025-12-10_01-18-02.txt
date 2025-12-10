@@ -1,0 +1,6 @@
+Filename: cdn4.premiumread.com.jpeg
+Upload Time: 0 ms
+Processing Time: 443 ms
+Total Time: 443 ms
+Output LaTeX: F=G{\frac{m_{1}m_{2}}{d^{2}}}
+Saved Image: logs/2025-12-10_01-18-02_image.png
