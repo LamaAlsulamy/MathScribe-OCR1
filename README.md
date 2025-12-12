@@ -87,10 +87,10 @@ This repository provides the core image-to-LaTeX transcription pipeline that ena
 
 **Project Contributors**
 
-| Name                      | ID        |
-| ------------------------- | --------- |
-| Maram Moshabbab Al Romman | 444007116 |
-| Lama Muidh Alsulami       | 443006533 |
-| Rimas Yasir Allehaibi     | 444000565 |
-| Layan Munwer Almoqati     | 444004267 |
-| Lama Mousa Alzahrani      | 444002964 |
+| Name                      |
+| ------------------------- |
+| Maram Moshabbab Al Romman |
+| Lama Muidh Alsulami       |
+| Rimas Yasir Allehaibi     |
+| Layan Munwer Almoqati     |
+| Lama Mousa Alzahrani      |
