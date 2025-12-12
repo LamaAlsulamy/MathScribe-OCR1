@@ -52,14 +52,10 @@ Follow the steps below to run the backend service locally:
 
 ### 2. Install Dependencies
 
-Navigate to the backend directory and install the required packages:
+Navigate to the backend directory and install the required packages then start the Server
+run the FastAPI backend using the following command:
 
 ```bash
 pip install -r requirements.txt
-
-3. Start the Server
-
-Run the FastAPI backend using the following command:
 python server.py
-
 
