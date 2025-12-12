@@ -56,10 +56,10 @@ Navigate to the backend directory and install the required packages:
 
 ```bash
 pip install -r requirements.txt
-### 3. Start the Server
+
+3. Start the Server
 
 Run the FastAPI backend using the following command:
-
-```bash
 python server.py
+
 
