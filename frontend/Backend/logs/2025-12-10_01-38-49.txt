@@ -1,6 +1,0 @@
-Filename: test.png
-Upload Time: 0 ms
-Processing Time: 924 ms
-Total Time: 924 ms
-Output LaTeX: S=\int_{x}\left\{\frac12\sum_{a}\partial^{\mu}\chi_{a}\partial_{\mu}\chi_{a}+V(\rho)\right\}
-Saved Image: logs/2025-12-10_01-38-49_image.png

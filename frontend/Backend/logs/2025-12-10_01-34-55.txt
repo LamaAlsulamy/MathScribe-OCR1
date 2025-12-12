@@ -1,6 +1,0 @@
-Filename: Screenshot 1447-06-19 at 1.20.32 am.png
-Upload Time: 0 ms
-Processing Time: 3296 ms
-Total Time: 3296 ms
-Output LaTeX: \left|\begin{array}{l}{\overbrace[[object Object]]{\frac{\sin\theta\log\theta\pm\theta}{\theta}}}\\ {\left|{\frac{\sin\theta=\cos\theta-\theta-\theta}{\theta}}}\\ {\left|{\frac{\sin}{\theta}}:{\frac{\sin\theta}{\theta}}:{\frac{\sin}{\theta}}\right|}\\ {\left|{\frac{\sin\theta\pm\theta\cos\theta\theta\cos\theta\pi\theta\right)\theta}{\sin\theta\cos\theta\theta\right|}}\right|}\end{array}\right|
-Saved Image: logs/2025-12-10_01-34-55_image.png

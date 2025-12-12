@@ -1,7 +1,0 @@
-Filename: Screenshot 1447-06-19 at 1.35.58 am.png
-Upload Time: 0 ms
-Processing Time: 43 ms
-Total Time: 43 ms
-Output LaTeX: ERROR: OpenCV(4.10.0) /Users/xperience/GHA-Actions-OpenCV/_work/opencv-python/opencv-python/opencv/modules/imgproc/src/color.cpp:196: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
-
-Saved Image: logs/2025-12-10_01-36-04_image.png
