@@ -1,72 +1,61 @@
+# MathScribe-OCR – Frontend
 
-## Project info
+This repository contains the **frontend interface** for the MathScribe-OCR system, a web-based application designed to support the recognition and transcription of **printed mathematical expressions** into LaTeX format.
 
-**URL**: https://lovable.dev/projects/446b61f9-aebc-49e9-a7c8-8b52ad8a3b97
+The frontend provides an interactive user interface for uploading images, previewing recognized mathematical expressions, and exporting the generated LaTeX output.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## Project Overview
 
-**Use Lovable**
+MathScribe-OCR is a full-stack system that integrates a deep learning–based backend for mathematical expression recognition with a modern web frontend for user interaction and visualization.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/446b61f9-aebc-49e9-a7c8-8b52ad8a3b97) and start prompting.
+This frontend is responsible for:
+- Accepting image inputs containing printed mathematical expressions
+- Displaying rendered LaTeX output for validation
+- Communicating with the backend inference API
+- Supporting export and usability features for academic workflows
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## Frontend Development Approach
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+The initial version of the frontend was **scaffolded using Lovable**, a rapid UI development platform, to accelerate interface design and component generation.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+After the initial setup, the project was:
+- Cloned and maintained locally
+- Customized and extended using a standard React development workflow
+- Integrated with a FastAPI-based backend via RESTful API calls
 
-Follow these steps:
+This hybrid approach allowed fast prototyping while preserving full control over the codebase.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+---
+
+## Technologies Used
+
+The frontend is built using the following technologies:
+
+- **React** – Component-based UI development
+- **TypeScript** – Type-safe JavaScript
+- **Vite** – Fast development server and build tool
+- **Tailwind CSS** – Utility-first styling
+- **shadcn/ui** – Reusable UI components
+
+---
+
+## Local Development Setup
+
+To run the frontend locally:
+
+```bash
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the frontend directory
+cd frontend
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/446b61f9-aebc-49e9-a7c8-8b52ad8a3b97) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
