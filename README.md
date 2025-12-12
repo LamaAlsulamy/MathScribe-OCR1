@@ -72,6 +72,17 @@ MathScribe-OCR serves as a digitization and transcription tool for printed mathe
 * Supports LaTeX-oriented academic publishing standards.
 * Provides structured transcription verification for educational and research contexts.
 
+## Model Reference
+
+The backend of MathScribe-OCR is built upon the Pix2Tex (Image-to-LaTeX) model, which is an open-source vision-to-sequence deep learning architecture designed for mathematical expression recognition.
+
+The model implementation is based on the following repository:
+
+https://github.com/lukas-blecher/LaTeX-OCR
+
+This repository provides the core image-to-LaTeX transcription pipeline that enables structural reconstruction of printed mathematical expressions.
+
+
 ## 10. Team Information
 
 **Project Contributors**
