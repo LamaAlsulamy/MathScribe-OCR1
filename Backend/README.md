@@ -41,3 +41,19 @@ Unlike traditional OCR systems, the model:
 - **Requests** – Automatic model weight downloading
 
 ---
+
+## How to Run the Backend
+
+Follow the steps below to run the backend service locally:
+
+### 1. Prerequisites
+- Python 3.8 or higher
+- pip package manager
+
+### 2. Install Dependencies
+
+Navigate to the backend directory and install the required packages:
+
+```bash
+pip install -r requirements.txt
+
