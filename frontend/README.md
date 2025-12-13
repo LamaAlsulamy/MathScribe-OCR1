@@ -48,11 +48,13 @@ The frontend is built using the following technologies:
 To run the frontend locally:
 
 ```bash
-# Navigate to the frontend directory
+## Frontend Setup
+
+### Prerequisites
+- Node.js (LTS version)
+- npm
+
+### Run Frontend
 cd frontend
-
-# Install dependencies
 npm install
-
-# Start the development server
 npm run dev
