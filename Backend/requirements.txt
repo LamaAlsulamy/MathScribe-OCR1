@@ -4,8 +4,10 @@ pillow
 python-multipart
 requests
 
-torch==1.12.1
-torchvision==0.13.1
+numpy<2
+
+torch
+torchvision
 --extra-index-url https://download.pytorch.org/whl/cpu
 
 pix2tex
