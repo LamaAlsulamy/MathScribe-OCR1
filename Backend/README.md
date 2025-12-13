@@ -84,7 +84,7 @@ Once the server is running, the backend API will be available locally and ready 
 
 ---
 
-## ⚠️ Recommended Setup (Conda / Compatibility Fix)
+## Recommended Setup (Conda / Compatibility Fix)
 
 Some deep learning libraries used in this project are **not fully compatible with NumPy 2.x**.
 To avoid runtime errors, we strongly recommend downgrading NumPy before installing dependencies.
