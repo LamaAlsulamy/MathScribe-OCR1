@@ -34,23 +34,136 @@ Printed mathematical notation represents spatial, symbolic, and hierarchical str
 
 * Generation of LaTeX code.
 * Rendered visual output to ensure layout accuracy and alignment consistency.
-
 ## 5. Implementation Requirements
 
-### Frontend Setup
+This project consists of two main parts:
+
+* **Frontend** (React + Vite)
+* **Backend** (FastAPI + OCR Model)
+
+Both parts must be running for the system to work correctly.
+
+---
+
+## Frontend Setup
+
+### Prerequisites
+
+* **Node.js (LTS version – v20.x recommended)**
+* npm (comes with Node.js)
+
+> Important:
+> Using very new Node.js versions may cause dependency issues with Vite.
+> We recommend using **Node.js v20 (LTS)**.
+
+---
+
+### 1. Navigate to Frontend Directory
 
 ```bash
 cd frontend
+```
+
+---
+
+### 2. Install Dependencies
+
+```bash
 npm install
+```
+
+This command installs all required frontend libraries listed in `package.json`.
+
+---
+
+### 3. Run the Frontend Development Server
+
+```bash
 npm run dev
 ```
 
-### Backend Setup
+After running the command, the frontend will be available at:
+
+```
+http://localhost:8080
+```
+
+---
+
+## Backend Setup
+
+### Prerequisites
+
+* **Python 3.9 or higher**
+* pip
+* (Optional but recommended) Conda or virtual environment
+
+---
+
+### 1. Navigate to Backend Directory
+
+```bash
+cd backend
+```
+
+---
+
+### 2. Install Dependencies
+
+Install all required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 3. Run the Backend Server
 
 ```bash
 python server.py
 ```
 
+Once running, the FastAPI backend will start locally and listen for requests from the frontend.
+
+---
+
+## Recommended Setup (NumPy Compatibility Fix)
+
+Some deep learning libraries used in this project are **not compatible with NumPy 2.x**.
+To avoid runtime errors, follow these steps **before installing dependencies**:
+
+### Step 1: Remove Current NumPy Version
+
+```bash
+pip uninstall numpy -y
+```
+
+### Step 2: Install a Compatible Version
+
+```bash
+pip install "numpy<2"
+```
+
+### Step 3: Reinstall Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 4: Run the Backend
+
+```bash
+python server.py
+```
+
+---
+
+### Notes
+
+* The **backend must be running first** before using the frontend.
+* The backend performs OCR inference and returns LaTeX results.
+* The frontend provides the user interface for image upload and result visualization.
 ## 6. Workflow Summary
 
 1. User provides printed mathematical expression input.
