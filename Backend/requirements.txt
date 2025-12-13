@@ -3,10 +3,12 @@ uvicorn[standard]
 pillow
 python-multipart
 requests
-git+https://github.com/lukas-blecher/pix2tex.git
+
 torch==1.12.1
 torchvision==0.13.1
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+pix2tex
 opencv-python-headless
 einops
 timm
---extra-index-url https://download.pytorch.org/whl/cpu
