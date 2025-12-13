@@ -48,9 +48,6 @@ The frontend is built using the following technologies:
 To run the frontend locally:
 
 ```bash
-# Clone the repository
-git clone <YOUR_GIT_URL>
-
 # Navigate to the frontend directory
 cd frontend
 
