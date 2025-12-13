@@ -59,3 +59,18 @@ run the FastAPI backend using the following command:
 pip install -r requirements.txt
 python server.py
 
+
+## Recommended Setup (Conda Users)
+
+Due to NumPy 2.x compatibility issues with some deep learning libraries,
+we recommend downgrading NumPy before running the backend:
+
+pip uninstall numpy -y
+pip install "numpy<2"
+
+Then install dependencies:
+pip install -r requirements.txt
+
+Finally, run the backend:
+python server.py
+
