@@ -115,7 +115,7 @@ python server.py
 
 ---
 
-### 🧠 Notes
+### Notes
 
 * The backend is built using **FastAPI** for high-performance inference.
 * It handles image uploads, runs the OCR model, and returns LaTeX predictions.
