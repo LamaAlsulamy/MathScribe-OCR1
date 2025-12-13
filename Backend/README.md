@@ -42,34 +42,81 @@ Unlike traditional OCR systems, the model:
 
 ---
 
-## How to Run the Backend
+## Backend Setup
 
-Follow the steps below to run the backend service locally:
+### Prerequisites
 
-### 1. Prerequisites
-- Python 3.8 or higher
-- pip package manager
+* Python 3.9 or higher
+* pip
+* (Optional but recommended) Conda or virtual environment
+
+---
+
+### 1. Navigate to Backend Directory
+
+First, move to the backend folder:
+
+```bash
+cd backend
+```
+
+---
 
 ### 2. Install Dependencies
 
-Navigate to the backend directory and install the required packages then start the Server
-run the FastAPI backend using the following command:
+Install all required Python packages listed in the `requirements.txt` file:
 
 ```bash
 pip install -r requirements.txt
+```
+
+---
+
+### 3. Run the Backend Server
+
+Start the FastAPI backend server using:
+
+```bash
 python server.py
+```
 
+Once the server is running, the backend API will be available locally and ready to receive requests from the frontend.
 
-## Recommended Setup (Conda Users)
+---
 
-##Due to NumPy 2.x compatibility issues with some deep learning libraries, we recommend downgrading NumPy before running the backend:
+## ⚠️ Recommended Setup (Conda / Compatibility Fix)
 
+Some deep learning libraries used in this project are **not fully compatible with NumPy 2.x**.
+To avoid runtime errors, we strongly recommend downgrading NumPy before installing dependencies.
+
+### Step 1: Remove Current NumPy Version
+
+```bash
 pip uninstall numpy -y
+```
+
+### Step 2: Install a Compatible NumPy Version
+
+```bash
 pip install "numpy<2"
+```
 
-## Then install dependencies:
+### Step 3: Reinstall Project Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-##Finally, run the backend:
+### Step 4: Run the Backend Server
+
+```bash
 python server.py
+```
 
+---
+
+### 🧠 Notes
+
+* The backend is built using **FastAPI** for high-performance inference.
+* It handles image uploads, runs the OCR model, and returns LaTeX predictions.
+* Make sure the backend is running **before** starting the frontend.
