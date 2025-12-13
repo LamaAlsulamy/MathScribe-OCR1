@@ -42,19 +42,72 @@ The frontend is built using the following technologies:
 - **shadcn/ui** – Reusable UI components
 
 ---
-
-## Local Development Setup
-
-To run the frontend locally:
-
-```bash
 ## Frontend Setup
 
-### Prerequisites
-- Node.js (LTS version)
-- npm
+This section explains how to run the frontend interface of the **MathScribe-OCR** project locally.
 
-### Run Frontend
+The frontend is a web-based user interface that allows users to upload images of mathematical expressions and view the LaTeX output returned by the backend.
+
+---
+
+### Prerequisites
+
+Before running the frontend, make sure the following tools are installed on your machine:
+
+* **Node.js (LTS version recommended)**
+  Node.js is required to run the JavaScript development server.
+  The project was tested using **Node.js v20 (LTS)**.
+
+* **npm (Node Package Manager)**
+  npm is used to install project dependencies and run scripts.
+  It is included automatically when installing Node.js.
+
+You can verify installation by running:
+
+```bash
+node -v
+npm -v
+```
+
+---
+
+### Run the Frontend Locally
+
+Follow these steps to start the frontend application:
+
+1. Navigate to the frontend directory:
+
+```bash
 cd frontend
+```
+
+2. Install all required dependencies:
+
+```bash
 npm install
+```
+
+This command downloads and installs all JavaScript libraries needed by the frontend (such as React, Vite, and UI components).
+
+3. Start the development server:
+
+```bash
 npm run dev
+```
+
+4. Open your browser and go to:
+
+```
+http://localhost:8080
+```
+
+The frontend interface should now be running and ready to use.
+
+---
+
+### Notes
+
+* The frontend runs on a local development server using **Vite**.
+* Make sure the **backend server is running** in parallel so the frontend can send image requests and receive LaTeX results.
+* If any dependency errors occur, deleting `node_modules` and running `npm install` again usually resolves the issue.
+
